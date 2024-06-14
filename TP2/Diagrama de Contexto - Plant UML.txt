@@ -1,0 +1,22 @@
+@startuml
+!theme hacker
+!include <C4/C4_Context>
+
+title Diagrama de Contexto
+
+Person(Capacitate, "Usuario Administrador", "Empleado de Capacitate que se encarga de crear nuevas categorías y capacitaciones")
+System(Sistema_Capacitaciones, "APP Web Capacitate", "Permite consultar, contratar, asignar y seguir el progreso de las capacitaciones.")
+
+Person(Empresa, "Empresa", "Empresa Cliente que desea capacitar a su personal.")
+Person(Empleado, "Empleado", "Empleado de la empresa que debe capacitarse.")
+
+System_Ext(Nube, "Servicio E-Mail", "Se encarga del envío de recordatorios y enlaces de acceso a capacitaciones")
+
+Rel_R(Empresa, Sistema_Capacitaciones, "Consultar, contratar y asignar capacitaciones")
+Rel_R(Empresa, Sistema_Capacitaciones, "Realizar seguimiento de capacitaciones")
+Rel(Empleado, Sistema_Capacitaciones, "Realizar capacitaciones y cuestionarios")
+Rel(Capacitate, Sistema_Capacitaciones, "Definir nuevas categorías y capacitaciones")
+Rel(Sistema_Capacitaciones, Nube, "Enviar recordatorios mediante...")
+Rel(Nube, Empleado, "Enviar recordatorios a...")
+@enduml
+

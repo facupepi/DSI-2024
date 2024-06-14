@@ -1,0 +1,27 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Diagrama de Contenedores
+
+System_Boundary(c1, "APP Web Capacitate") {
+    Container(web_app, "FrontEnd Pagina Web","" ,"Se encarga de mostrar la INTERFAZ a cada uno de los usuarios")
+    ContainerDb(database, "Base De Datos", "SQL Database", "Se encarga de la PERSISTENCIA de los datos.")
+    Container(backend_api, "BackEnd Pagina Web", "", "Se encarga de ejecutar la LOGICA DE NEGOCIO.")
+}
+
+Person(Capacitate, "Usuario Administrador", "Empleado de Capacitate que se encarga de crear nuevas categorías y capacitaciones")
+Person(Empresa, "Empresa", "Empresa Cliente que desea capacitar a su personal.")
+Person(Empleado, "Empleado", "Empleado de la empresa que debe capacitarse.")
+
+System_Ext(Nube, "Servicio E-Mail", "Se encarga del envío de recordatorios y enlaces de acceso a capacitaciones")
+
+Rel_R(Empresa, web_app, "Consultar, contratar y asignar capacitaciones")
+Rel_R(Empresa, web_app, "Realizar seguimiento de capacitaciones")
+Rel(Empleado, web_app, "Realizar capacitaciones y cuestionarios")
+Rel_L(Capacitate, web_app, "Definir nuevas categorías y capacitaciones")
+Rel(backend_api, Nube, "Enviar recordatorios mediante...")
+Rel(Nube, Empleado, "Enviar recordatorios a...")
+Rel(web_app, backend_api, "Enviar peticion")
+Rel(backend_api, web_app , "Responder peticion")
+Rel(backend_api, database, "Lectura/Escritura")
+@enduml
