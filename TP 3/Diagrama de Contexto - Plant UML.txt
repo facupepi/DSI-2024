@@ -1,0 +1,16 @@
+@startuml
+!include <C4/C4_Context>
+
+title Diagrama de Contexto
+
+System(web_app, "Pagina Web","Permite a los clientes realizar cotizaciones, pedidos y pagarlos.")
+Person(Ventas, "Sección Ventas Minoristas", "Administra los pedidos realizados junto con sus correspondientes pagos.")
+Person(Cliente, "Cliente", "Desea realizar una compra y/o cotización de materiales.")
+
+System_Ext(Nube, "Servicio E-Mail", "Se encarga del envío de cotizaciones")
+
+Rel_R(Ventas, web_app, "Administrar catálogo y cotizaciones")
+Rel(Cliente, web_app, "Realizar cotización \n")
+Rel(web_app, Nube, "Enviar cotización mediante...")
+Rel(Nube, Cliente, "Enviar cotización a...")
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Diagrama de Contenedores
+
+System_Boundary(c1, "APP Web Materiales") {
+    Container(web_app, "FrontEnd Pagina Web","" ,"Se encarga de mostrar la INTERFAZ a cada uno de los usuarios")
+    ContainerDb(database, "Base De Datos", "SQL Database", "Se encarga de la PERSISTENCIA de los datos.")
+    Container(backend_api, "BackEnd Pagina Web", "", "Se encarga de ejecutar la LOGICA DE NEGOCIO.")
+}
+
+Person(Ventas, "Sección Ventas Minoristas", "Administra los pedidos realizados junto con sus correspondientes pagos.")
+Person(Cliente, "Cliente", "Desea realizar una compra y/o cotización de materiales.")
+
+System_Ext(Nube, "Servicio E-Mail", "Se encarga del envío de cotizaciones")
+
+Rel_R(Ventas, web_app, "Administrar pedidos y pagos.")
+Rel(Cliente, web_app, "Realizar cotización \n")
+Rel(backend_api, Nube, "Enviar cotización mediante...")
+Rel(Nube, Cliente, "Enviar cotización a...")
+Rel(web_app, backend_api, "Enviar peticion")
+Rel(backend_api, web_app , "Responder peticion")
+Rel(backend_api, database, "Lectura/Escritura")
+@enduml
