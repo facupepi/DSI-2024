@@ -1,0 +1,32 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Diagrama de Contenedores - APP Web Materiales
+
+System_Ext(Nube, "Servicio E-Mail", "Envía correos automáticos de cotización.")
+System_Ext(MercadoPago, "API de Mercado Pago", "Procesa pagos en línea de manera segura.")
+System_Ext(MODO, "API MODO", "Facilita pagos mediante cuentas bancarias locales y billeteras digitales.")
+System_Ext(AutoDesk, "API Model Derivative de Autodesk", "Convierte archivos CAD y extrae medidas y propiedades.")
+
+System_Boundary(c1, "APP Web Materiales") {
+    Container(web_app, "FrontEnd Pagina Web", "", "Muestra la interfaz para clientes y sección de ventas.")
+    ContainerDb(database, "Base De Datos", "SQL Database", "Almacena pedidos, clientes y catálogos.")
+    Container(backend_api, "BackEnd Pagina Web", "", "Ejecuta la lógica de negocio.")
+}
+
+Person(Ventas, "Sección Ventas Minoristas", "Administra pedidos y pagos realizados.")
+Person(Cliente, "Cliente", "Realiza compras y cotizaciones de materiales.")
+
+Rel(Cliente, web_app, "Realiza cotización y pedido de materiales.")
+Rel_R(Ventas, web_app, "Administra pedidos y pagos.")
+Rel(web_app, backend_api, "Envía solicitud para cotización/pedido.")
+Rel(backend_api, web_app, "Envía respuesta de cotización/pedido.")
+Rel(backend_api, database, "Lectura/Escritura de datos de pedidos y cotizaciones.")
+
+BiRel(backend_api, Nube, "Solicita envío de cotización al cliente, recibe confirmación de envío.")
+BiRel(backend_api, MercadoPago, "Envía datos de pago y recibe confirmación segura.")
+BiRel(backend_api, MODO, "Envía datos de pago y recibe confirmación de cuenta o billetera digital.")
+BiRel(backend_api, AutoDesk, "Envía planos CAD para conversión y recibe medidas y propiedades.")
+
+Rel(Nube, Cliente, "Envia cotización por email.")
+@enduml

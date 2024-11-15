@@ -1,0 +1,22 @@
+@startuml
+!include <C4/C4_Context>
+
+title Diagrama de Contexto
+
+System(web_app, "Página Web", "Permite a los clientes realizar cotizaciones, pedidos y pagarlos.")
+Person(Ventas, "Sección Ventas Minoristas", "Administra los pedidos realizados junto con sus correspondientes pagos.")
+Person(Cliente, "Cliente", "Desea realizar una compra y/o cotización de materiales.")
+
+System_Ext(MercadoPago, "API de Mercado Pago", "Procesa los pagos en línea de manera segura y rápida.")
+System_Ext(MODO, "API MODO", "Facilita pagos mediante cuentas bancarias locales y billeteras digitales.")
+System_Ext(AutoDesk, "API Model Derivative de Autodesk", "Convierte archivos CAD y extrae medidas y propiedades del diseño.")
+System_Ext(Nube, "Servicio E-Mail", "Envía correos electrónicos automáticos para notificar al cliente sobre sus cotizaciones.")
+
+Rel_R(Ventas, web_app, "Administra el catálogo de productos \ny las cotizaciones de los clientes.")
+Rel(Cliente, web_app, "Realiza una cotización o pedido de materiales \ny selecciona opciones de pago.")
+BiRel(web_app, MercadoPago, "Envía datos de pago y recibe confirmación \nsegura del pedido.")
+BiRel(web_app, MODO, "Ofrece opciones de pago mediante MODO \ny recibe confirmación del banco o billetera digital.")
+BiRel(web_app, AutoDesk, "Envía planos CAD para conversión y extracción de medidas, \nrecibe propiedades del diseño.")
+Rel(web_app, Nube, "Solicita envío de cotización al cliente \nmediante correo electrónico.")
+Rel(Nube, Cliente, "Envía el detalle de la cotización \ny confirmación del pedido.")
+@enduml

@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2024-11-14T20:34:30.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="rfAqfkNgq1_3UyscSnHa" version="24.1.0" type="device">
+  <diagram name="Page-1" id="GkvZdsP04MVSrHrwDLs8">
+    <mxGraphModel dx="1500" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-19" target="Wd8o5DcKNBk4Yxq7A-Wp-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-19" value="&lt;b&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;EVENTO DE ENTRADA &lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;Pedido del cliente&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="273.75" width="120" height="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-20" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;OBJETIVO&lt;/b&gt;&lt;br&gt;&lt;br&gt;Venta de materiales de construccion&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;span style=&quot;line-height: 120%; font-family: Arial, sans-serif;&quot; lang=&quot;ES&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Reducir los tiempos de atención&lt;br&gt;a clientes minoristas&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;span style=&quot;line-height: 120%; font-family: Arial, sans-serif;&quot; lang=&quot;ES&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;span style=&quot;line-height: 120%; font-family: Arial, sans-serif;&quot; lang=&quot;ES&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Cotizar y generar pedidos online&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="135" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-23" target="Wd8o5DcKNBk4Yxq7A-Wp-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-23" target="Wd8o5DcKNBk4Yxq7A-Wp-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-23" value="&lt;b&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;GESTIÓN DE VENTAS DE&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;MATERIALES DE CONTRUCCION&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="325" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="425" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="575" />
+              <mxPoint x="350" y="426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-25" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;RECURSOS HUMANOS&lt;br&gt;&lt;br&gt;&lt;/b&gt;Vendedores&lt;br&gt;&lt;br&gt;Transportistas&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="495" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-26" value="&lt;b&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;EVENTO DE SALIDA&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;Cotizacion del pedido&lt;div&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt; Entrega del pedido al cliente&lt;br&gt;&lt;br&gt;Recepción del pago y facturación&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="273.75" width="120" height="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="425" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;INFRAESTRUCTURA&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;Servicio de Internet&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Servidor Web&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="725" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.693;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-30" target="Wd8o5DcKNBk4Yxq7A-Wp-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-30" value="&lt;b&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;INFORMACION&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Costo del pedido&lt;br&gt;&lt;br&gt;Dimensiones de las paredes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cantidad de metros cuadrados&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Materiales elegidos&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;Datos del cliente&lt;br&gt;&lt;br&gt;Metodo de pago&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="495" width="130" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.269;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Wd8o5DcKNBk4Yxq7A-Wp-32" target="Wd8o5DcKNBk4Yxq7A-Wp-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="805" />
+            </Array>
+            <mxPoint x="370" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wd8o5DcKNBk4Yxq7A-Wp-32" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;HERRAMIENTAS&lt;br&gt;&lt;/b&gt;&lt;br&gt;Sistemas de seguimiento de pedidos&lt;br&gt;&lt;br&gt;Computadoras&lt;br&gt;&lt;br&gt;Bases de datos de clientes&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="725" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oDw3lYuBKwo_4KS91jpl-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;SISTEMAS EXTERNOS&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;Autodesk Model Derivative API&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Mercado Pago&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Modo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="830" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oDw3lYuBKwo_4KS91jpl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oDw3lYuBKwo_4KS91jpl-1" target="Wd8o5DcKNBk4Yxq7A-Wp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
